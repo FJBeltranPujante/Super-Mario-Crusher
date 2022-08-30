@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  background: url("./images/wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  padding-top: 1em;
+  justify-content: space-evenly;
+}
+
+.game {
+  width: 650px;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  backdrop-filter: blur(4px);
+}
+
+.game img {
+  margin: 0.3em;
+  width: 70px;
+  height: 70px;
+}
+
+.score-board {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(255, 255, 255);
+}
+
+.score-board h1 {
+  margin: 0;
+}
+
+@media screen and (min-width: 1600px) {
+  .app {
+    margin: 6em;
+  }
+}
